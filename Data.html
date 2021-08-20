@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 >
+      Отчет
+      <iframe id="txtArea1" style="display: none"></iframe>
+      <button class="btn" id="btnExport" onclick="fnExcelReport();">
+        EXPORT
+      </button>
+    </h1>
+
+    <hr />
+    <div id="name" ></div>
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
